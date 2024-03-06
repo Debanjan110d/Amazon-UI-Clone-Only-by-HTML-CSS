@@ -252,3 +252,36 @@
 .border-panel:hover {
   border-color: white;
 }
+
+/**Hero Section**/
+
+.slider {
+  background-image: url(puca.jpg);
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+}
+
+.slider-msg a {
+  color: #007185;
+  text-decoration: none;
+}
+
+.slider-msg a:hover {
+  color: blue;
+  text-decoration: underline;
+}
