@@ -293,6 +293,18 @@
 
 /** Content-Shoping **/
 
+.dec-text {
+  text-decoration: none;
+}
+
+.see-more {
+  margin-top: 18px;
+}
+
+/**1st Line**/
+
+/**1st Box**/
+
 .content-shoping {
   display: flex;
   justify-content: space-evenly;
@@ -300,7 +312,7 @@
 }
 .box {
   border: 2px solid black;
-  height: 360px;
+  height: 369px;
   width: 23%;
 
   background-color: white;
@@ -309,9 +321,50 @@
 .img-box1 {
   display: flex;
   margin-top: 21px;
+  margin-left: 6px;
 }
 .img-box2 {
   display: flex;
   align-items: center;
+  margin-left: 6px;
   margin-top: 21px;
+}
+
+/**2nd Box**/
+
+.img-box3 {
+  display: flex;
+  margin-top: 21px;
+  margin-left: 6px;
+  justify-content: space-between;
+}
+
+.img-box4 {
+  display: flex;
+  margin-top: 21px;
+  margin-left: 6px;
+  justify-content: space-evenly;
+}
+
+.img-box5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-box6 {
+  display: flex;
+  margin-top: 21px;
+  margin-left: 6px;
+  justify-content: space-evenly;
+}
+
+.img-box7 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.puchke {
+  width: 96px;
+  height: 90px;
 }
